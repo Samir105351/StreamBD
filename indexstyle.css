@@ -1,0 +1,102 @@
+body
+{
+    height: auto;
+    background-color: black;
+}
+.bgm
+{
+    background-image: url(background.jpg);
+    background-size: auto;
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    color: red;
+}
+h1{
+    color: white;
+}
+.butter{
+    padding: 1%;
+    text-align: center;
+}
+.brand{
+color:red;
+}
+.LoginPage{
+    width: 360px;
+    padding: 2% 0 0;
+    margin: auto;
+}
+
+.LoginForm{
+    position: relative;
+    z-index: 1;
+    background-color:rgba(256,256, 256, 0.50);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.LoginForm input{
+    font-family: 'Times New Roman', Times, serif;
+    outline: 1;
+    background-color: rgba(256,256, 256, 0.75);
+    width: 100%;
+    border: 0;
+    margin: 15px 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.LoginForm button{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    outline: uppercase;
+    outline: 0;
+    background:red;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.LoginForm button:hover,.LoginForm button:active{
+    background: crimson;
+}
+.LoginForm .message{
+    margin: 15 px;
+    font-size: 12px;
+    padding: 10px;
+    background-color: white;
+}
+::placeholder{
+    color: black;
+}
+
+.LoginForm .message a{
+    text-decoration: none;
+}
+
+
+.LoginForm .reigster-form{
+    display: none;
+}
+
+.eye
+{
+    position: absolute;
+    right: 60px;
+    transform: translate(0,-45%);
+    top: 45%;
+}
+
+#hide1{
+    display: none;
+}
+

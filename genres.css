@@ -1,0 +1,140 @@
+body
+{
+    height: auto;
+    background-color: black;
+    box-sizing: border-box solid;
+}
+.bgm
+{
+    background-color: black;
+    background-size: auto;
+    padding: 0%;
+    margin: 0%;
+}
+ a{
+    color: white;
+    text-decoration:none;
+}
+h1{
+    color: white;
+    float: left;
+}
+.brand{
+    color:red;
+ }
+
+ ul
+ {
+     color: white;
+ }
+
+ nav{
+    text-decoration: none;
+     float: right;
+ }
+
+ nav ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ nav li{
+     display: inline-block;
+     margin: 0 10px;
+ }
+
+ a:hover{
+     color: red;
+ }
+
+ .highlight
+ {
+     padding: 10px;
+     margin: auto;
+     background-color: red;
+     color: white;
+     margin-right: 100px;
+ }
+
+.Rec
+{
+    float: left;
+     padding: 10px;
+     margin: auto;
+     background-color:black;
+     color: white;
+}
+
+h3{
+    float: left;
+    float: absolute;
+    padding: absolute;
+}
+ .searchbox
+ {
+     float: right;
+     color: white;
+     background-color: red;
+     margin: auto;
+     padding: 1px;
+     margin-right: 150px;
+     cursor: pointer;
+ }
+
+ hr
+ {
+     margin-right: 100px;
+ }
+
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 100px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width: 1344px){
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1344px){
+    .checkbtn{
+        display: block;
+    }
+    .searchbox{
+        display: none;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: black;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 0px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    a:hover,a .active{
+        background: none;
+        color: red;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+}
